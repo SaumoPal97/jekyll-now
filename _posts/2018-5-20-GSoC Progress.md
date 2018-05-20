@@ -3,7 +3,7 @@ layout: post
 title: GSoC'18 Progress 
 ---
 
-This will contain the timeline and my progress through it to ensure I am on track.
+This will contain the timeline of my proposed work and my progress through it to ensure that I am on track.
 
 ## Community Bonding Period
 * Familiarising myself with the following papers 
