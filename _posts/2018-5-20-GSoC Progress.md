@@ -14,8 +14,8 @@ This will contain the timeline of my proposed work and my progress through it to
 ## Phase 1
 This phase will be dedicated for implementation of the first paper.
 * Week 1
-  - Analysing the [Rico](http://rico.interactionmining.org/) dataset to find the features to include in the analysis
-  - Working upon building the corpus from the json files in the above dataset (size above 20GB)
+  - Analysing the [Rico](http://rico.interactionmining.org/) dataset to find the features to include in the analysis[DONE]
+  - Working upon building the corpus from the json files in the above dataset (size above 20GB)[DONE]
 * Week 2
   - Implementing the bag-of-words, tf-idf and LSI trasformation using the above corpus to obtain the set of vectors
 * Week 3
