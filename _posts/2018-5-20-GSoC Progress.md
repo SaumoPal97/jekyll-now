@@ -8,7 +8,7 @@ This will contain the timeline of my proposed work and my progress through it to
 ## Community Bonding Period
 * Familiarising myself with the following papers 
   - [Using Semantic Similarity in Crawling-based Web Application Testing](http://castman.net/static/file/paper/icst17.pdf)
-  - [Automation of Android Applications Testing Using Machine Learning Activities Classification (https://arxiv.org/pdf/1709.00928.pdf)
+  - [Automation of Android Applications Testing Using Machine Learning Activities Classification](https://arxiv.org/pdf/1709.00928.pdf)
   - [Inductive Representation Learning on Large Graphs](https://arxiv.org/pdf/1706.02216.pdf)
   - [Webzeitgeist: Design Mining the Web](http://vis.stanford.edu/files/2013-Webzeitgeist-CHI.pdf)
 
