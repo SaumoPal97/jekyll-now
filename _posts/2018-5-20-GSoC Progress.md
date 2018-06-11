@@ -20,7 +20,7 @@ This phase will be dedicated for implementation of the first paper with some hel
 * Week 2
   - Implementing the bag-of-words, tf-idf and LSI trasformation using the above corpus to obtain the set of vectors[DONE]
 * Week 3
-  - Writing a script for labelling input topics using a pre-defined dictionary inspired from second paper
+  - Writing a script for labelling input topics using a pre-defined dictionary inspired from second paper[DONE]
   - Implementing the cosine similarity of vectors obtained 
 * Week 4
   - Integrating with Rule based method
