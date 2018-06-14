@@ -21,10 +21,10 @@ This phase will be dedicated for implementation of the first paper with some hel
   - Implementing the bag-of-words, tf-idf and LSI trasformation using the above corpus to obtain the set of vectors[DONE]
 * Week 3
   - Writing a script for labelling input topics using a pre-defined dictionary inspired from second paper[DONE]
-  - Implementing the cosine similarity of vectors obtained 
+  - Implementing the cosine similarity of vectors obtained[DONE] 
 * Week 4
   - Integrating with Rule based method
-  - Analysing the accuracy and performance on a hold-out dataset
+  - Analysing the accuracy and performance on a hold-out dataset[DONE]
   - Integrating with the [DroidBot](https://github.com/honeynet/droidbot) 
   
 ## Phase 2
