@@ -35,7 +35,7 @@ This phase will be dedicated for implementation of the third paper with some hel
   - Writing script for labelling the UI activities from the Rico dataset used above
 * Week 2
   - Implementing CNN to train on the above dataset and test on a hold out dataset for classifying the UI activities
-  - Comparing performances across various pre-trained CNN models like GoogleNet, ResNet etc.
+  - Comparing performances across various pre-trained CNN models like GoogleNet, ResNet, Inception etc.
 * Week 3
   - Integrating the method from Phase 1 with this method using an ensemble of the CNN and the algorithm described in the second paper
 * Week 4
