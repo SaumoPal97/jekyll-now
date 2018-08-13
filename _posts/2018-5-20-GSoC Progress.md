@@ -12,6 +12,8 @@ This will contain the timeline of my proposed work and my progress through it to
   - [Inductive Representation Learning on Large Graphs](https://arxiv.org/pdf/1706.02216.pdf)
   - [ERICA: Interaction Mining Mobile Apps](http://ranjithakumar.net/resources/deka-uist2016-erica.pdf)
   - [Webzeitgeist: Design Mining the Web](http://vis.stanford.edu/files/2013-Webzeitgeist-CHI.pdf)
+  - [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+  - [Attention based Bidirectional Long Short-Term Memory networks](http://www.aclweb.org/anthology/P16-2034)
 
 ## Phase 1
 This phase will be dedicated for implementation of the first paper with some help from second paper.
@@ -26,20 +28,29 @@ This phase will be dedicated for implementation of the first paper with some hel
 * Week 4
   - Integrating with Rule based method
   - Analysing the accuracy and performance on a hold-out dataset[DONE]
-  - Integrating with the [DroidBot](https://github.com/honeynet/droidbot) 
   
 ## Phase 2
 This phase will be dedicated for implementation of the third paper with some help from fourth paper and use of Convolutional Neural Networks. 
 * Week 1
-  - Working on UI labelling strategies by utilizing ideas from fourth paper along with manual inspection
-  - Writing script for labelling the UI activities from the Rico dataset used above
+  - Working on UI labelling strategies by utilizing ideas from fourth paper along with manual inspection[DONE]
+  - Writing script for labelling the UI activities from the Rico dataset used above[DONE]
 * Week 2
-  - Implementing CNN to train on the above dataset and test on a hold out dataset for classifying the UI activities
-  - Comparing performances across various pre-trained CNN models like GoogleNet, ResNet, Inception etc.
+  - Implementing CNN to train on the above dataset and test on a hold out dataset for classifying the UI activities[DONE]
+  - Comparing performances across various pre-trained CNN models like Inception[DONE]
 * Week 3
-  - Integrating the method from Phase 1 with this method using an ensemble of the CNN and the algorithm described in the second paper
+  - Comparing the method from Phase 1 with this method and with word level bidirectional RNN described in the last two links[DONE]
 * Week 4
   - Working on integrating the embeddings obtained from the fully connected penultimate layer of the CNN as a starting point for graph embeddings as described in the fourth paper (requires a little more research)
   
 ## Phase 3
-This phase will mostly deal with completion of the above algorithms and their integration with Droidbot.
+* Week 1
+  - Working on implementation of word level bidirectional RNN[DONE]
+  - Preparation of the training and testing datasets from the UI activity xml files[DONE]
+* Week 2
+  - Working on implementation of attention based bidirectional LSTM[DONE]
+  - Training the above networks on Google Colaboratory[DONE]
+* Week 3
+  - Preparation of the final documentation and exploration of future work and scope of the GSoC project[DONE]
+* Week 4
+  - Preparation of the final product submission blog and final commits[DONE]
+
