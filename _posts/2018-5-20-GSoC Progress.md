@@ -43,6 +43,7 @@ This phase will be dedicated for implementation of the third paper with some hel
   - Working on integrating the embeddings obtained from the fully connected penultimate layer of the CNN as a starting point for graph embeddings as described in the fourth paper (requires a little more research)
   
 ## Phase 3
+This phase will be dedicated for implementation of the last two papers for use of Recurrent Neural Networks.
 * Week 1
   - Working on implementation of word level bidirectional RNN[DONE]
   - Preparation of the training and testing datasets from the UI activity xml files[DONE]
