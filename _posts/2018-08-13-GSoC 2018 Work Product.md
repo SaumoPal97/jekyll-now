@@ -4,7 +4,7 @@ title: GSoC'18 Work Product
 ---
 My project for GSoC 2018 is [DroidBot with AI](https://summerofcode.withgoogle.com/projects/#5858149874008064) which was an exploratory research work to see how machine learning an artificial intelligence can help in automated dynamic analysis of Android applications. The explored methods are illustrated in this blog post which also serves as the final evaluation for GSoC 2018. The research is still open-ended with the need of more mature outcomes so that it can finally be integrated with [Droidbot](https://github.com/honeynet/droidbot). 
 
-## Repository - https://github.com/SaumoPal97/GSoC-2018
+## Find my code here - [Repository](https://github.com/SaumoPal97/GSoC-2018)
 
 # Project overview
 
