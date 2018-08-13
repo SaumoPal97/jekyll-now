@@ -4,6 +4,9 @@ title: GSoC'18 Work Product
 ---
 My project for GSoC 2018 is [DroidBot with AI](https://summerofcode.withgoogle.com/projects/#5858149874008064) which was an exploratory research work to see how machine learning an artificial intelligence can help in automated dynamic analysis of Android applications. The explored methods are illustrated in this blog post which also serves as the final evaluation for GSoC 2018. The research is still open-ended with the need of more mature outcomes so that it can finally be integrated with [Droidbot](https://github.com/honeynet/droidbot). 
 
+* View source on [Github](https://github.com/SaumoPal97/GSoC-2018)
+* For more details, please visit this [page](https://saumopal97.github.io/GSoC-Progress/)
+
 # Project overview
 
 The major task to be tackled in this project is to increase the code coverage of Android applications using AI.Currently droidbot performs back box testing using the GUI elements. So I have focussed only on black box testing methods without assuming access to any previous data/information regarding the code structure. Currently the work done is based on:
@@ -43,9 +46,6 @@ The path along which we decided to go along was to start with classical NLP conc
   - Consisted of three major parts - Labelling, Training and Inference, of which Labelling is in the same way as done previously
   - Training was done on a word based bidirectional RNN network and an attention based LSTM on the Google Colaboratory setup with NVIDIA Tesla K80 GPU
    - Finally inference was done on the holdout dataset which gave accuracies of close to y%
-
-## View source on [Github](https://github.com/SaumoPal97/GSoC-2018)
-## For more details, please visit this [page](https://saumopal97.github.io/GSoC-Progress/)
 
 # What I haven't done and future scope
 
