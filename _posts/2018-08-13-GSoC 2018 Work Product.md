@@ -45,7 +45,7 @@ The path along which we decided to go along was to start with classical NLP conc
   - Used for UI page classification
   - Consisted of three major parts - Labelling, Training and Inference, of which Labelling is in the same way as done previously
   - Training was done on a word based bidirectional RNN network and an attention based LSTM on the Google Colaboratory setup with NVIDIA Tesla K80 GPU
-   - Finally inference was done on the holdout dataset which gave accuracies of close to y%
+   - Finally inference will be done on the holdout dataset
 
 # What I haven't done and future scope
 
