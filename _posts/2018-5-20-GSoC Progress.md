@@ -38,7 +38,7 @@ This phase will be dedicated for implementation of the third paper with some hel
   - Implementing CNN to train on the above dataset and test on a hold out dataset for classifying the UI activities[DONE]
   - Comparing performances across various pre-trained CNN models like VGG16[DONE]
 * Week 3
-  - Comparing the method from Phase 1 with this method and with word level bidirectional RNN described in the last two links[DONE]
+  - Comparing the method from Phase 1 with this method and with word level bidirectional RNN described in the last two links
 * Week 4
   - Working on integrating the embeddings obtained from the fully connected penultimate layer of the CNN as a starting point for graph embeddings as described in the fourth paper (requires a little more research)
   
@@ -49,7 +49,7 @@ This phase will be dedicated for implementation of the last two papers for use o
   - Preparation of the training and testing datasets from the UI activity xml files[DONE]
 * Week 2
   - Working on implementation of attention based bidirectional LSTM[DONE]
-  - Training the above networks on Google Colaboratory[DONE]
+  - Training the above networks on Google Colaboratory
 * Week 3
   - Preparation of the final documentation and exploration of future work and scope of the GSoC project[DONE]
 * Week 4
