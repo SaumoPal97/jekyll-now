@@ -18,10 +18,10 @@
 	border: 3px solid #00b7ff;
 }
 .book-btn a:hover{
-	border: 3px solid #f04900;
+	border: 3px solid #00b7ff;
 }
 .hvr-underline-from-center::before{
-	background:#f04900;
+	background:#00b7ff;
 }
 .block-title{
 	color: #00b7ff;
