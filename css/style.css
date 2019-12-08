@@ -37,6 +37,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Paprika');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 
 /*------------------------------------------------------------------
@@ -406,11 +407,12 @@ html, body{ height: 100%; }
     color: #fff;
 }
 .banner-text h1 {
-	font-family: 'nautilus_pompiliusregular';
+	font-family: 'Open Sans';
     letter-spacing: 2.7px;
     position: relative;
     display: inline-block;
 	font-size: 74px;
+  font-weight: 600;
     line-height: 100px;
 	color:#fff;
 	padding-bottom: 0px;
@@ -418,10 +420,11 @@ html, body{ height: 100%; }
 }
 
 .banner-text h2 {
-	font-family: 'nautilus_pompiliusregular';
+	font-family: 'Roboto';
     letter-spacing: 2.7px;
     position: relative;
 	font-size: 37px;
+  font-weight: 450;
     line-height: 100px;
 	padding-bottom:25px;
 }
@@ -605,7 +608,8 @@ html, body{ height: 100%; }
 
 .block-title{
 	font-size:52px;
-	font-family: 'nautilus_pompiliusregular';
+	font-family: 'Open Sans';
+  font-weight: 600;
 	font-weight: bold;
 }
 
