@@ -1,9 +1,0 @@
----
-layout: post
-title: Selected for GSoC'18
----
-
-I am selected for GSoC'18 under The Honeynet Organization. This is my second and last attempt at GSoC.
-
-The major task to be tackled in this project is to increase the code coverage of android testing tool [DroidBot](https://github.com/honeynet/droidbot/) using AI. Currently droidbot performs black box testing using the GUI elements. So I have focussed on improving only black box testing methods without assuming access to any previous data/information regarding the code structure using machine learning algorithms that are mentioned in the proposal. Using them, I will be trying to increase the code coverage of the GUI based testing system of DroidBot.
-
