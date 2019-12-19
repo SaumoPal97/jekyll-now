@@ -887,41 +887,6 @@ html, body{ height: 100%; }
     padding-right: 20px;
 }
 
-.offer-item a{
-  /*background:#e75b1e;*/
-  width: 20%;
-  position: absolute;
-  top: 30%;
-  color:#fff;
-  background: #3e8bf3;
-    margin: 10px;
-    padding: 10.5px 20px;
-    display: inline-block;
-    text-align: center;
-    font-weight: 800;
-  text-transform:uppercase;
-  font-size:15px;
-  /*position: absolute;
-    right: 15px;
-    top: 50%;
-    display: block;
-    width: 92px;
-    height: 92px;
-    line-height: 92px;
-    -moz-border-radius: 92px;
-    -webkit-border-radius: 92px;
-    border-radius: 92px;
-    -moz-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    -webkit-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    color: #000;
-    font-size: 26px;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    letter-spacing: .5px;*/
-}
-
 .offer-item .offer-price {
     position: absolute;
     right: 15px;
