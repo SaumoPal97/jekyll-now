@@ -821,6 +821,7 @@ html, body{ height: 100%; }
 	border-bottom:1px solid #666;
 	display: inline-block;
 	padding-top: 10px;
+  font-size: 15px;
 }
 
 .tab-title-menu p{
