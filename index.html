@@ -176,19 +176,19 @@
                         <div class="slider slider-nav">
                             <div class="tab-title-menu">
                                 <h2>Today's Lunch</h2>
-                                <p> <span>2 FEB</span> </p>
+                                <p> <span id="dates1"></span> </p>
                             </div>
                             <div class="tab-title-menu">
                                 <h2>Today's Dinner</h2>
-                                <p> <span>2 FEB</span> </p>
+                                <p> <span id="dates2"></span> </p>
                             </div>
                             <div class="tab-title-menu">
                                 <h2>Tomorrow's Lunch</h2>
-                                <p> <span>3 FEB</span> </p>
+                                <p> <span id="dates3"></span> </p>
                             </div>
                             <div class="tab-title-menu">
                                 <h2>Tomorrow's Dinner</h2>
-                                <p> <span>3 FEB</span> </p>
+                                <p> <span id="dates4"></span> </p>
                             </div>
                         </div>
                         <div class="slider slider-single">
@@ -562,6 +562,19 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
+    <script>
+        var today = new Date();
+        var months = new Array('JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC');
+        var currMonth = months[today.getMonth()];
+        document.getElementById("dates1").innerHTML = today.getDate().toString() + " " + currMonth ;
+        document.getElementById("dates2").innerHTML = today.getDate().toString() + " " + currMonth ;
+        var tomorrow = new Date();
+        tomorrow.setDate(tomorrow.getDate() + 1);
+        var nextMonth = months[tomorrow.getMonth()];
+        document.getElementById("dates3").innerHTML = tomorrow.getDate().toString() + " " + nextMonth ;
+        document.getElementById("dates4").innerHTML = tomorrow.getDate().toString() + " " + nextMonth ;
+
+    </script>
 </body>
 
 </html>
